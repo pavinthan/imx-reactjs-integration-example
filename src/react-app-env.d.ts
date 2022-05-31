@@ -1,5 +1,7 @@
 /// <reference types="react-scripts" />
 
-interface Window {
+declare global {
+  interface Window{
     ethereum: any
+  }
 }
